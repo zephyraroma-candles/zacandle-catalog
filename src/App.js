@@ -20,55 +20,55 @@ const candles = [
   {
     name: "Tide of Roses",
     price: "₹450",
-    image: "/candles/tide_of_roses.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/tide_of_roses.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Daisy Delight",
     price: "₹220",
-    image: "/candles/daisy_delight.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/daisy_delight.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Floral Chic Cup",
     price: "₹200",
-    image: "/candles/floral_chic_cup.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/floral_chic_cup.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Glow Goals",
     price: "₹200",
-    image: "/candles/glow_goals.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/glow_goals.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Lotus Whisper",
     price: "₹200",
-    image: "/candles/lotus_whisper.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/lotus_whisper.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Mini Green Garden",
     price: "₹80",
-    image: "/candles/mini_green_garden.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/mini_green_garden.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Pastel Petals",
     price: "₹110",
-    image: "/candles/pastel_petals.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/pastel_petals.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Rosemary",
     price: "₹430",
-    image: "/candles/rosemary.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/rosemary.jpeg",
     colors: vibgyorPalette
   },
   {
     name: "Tulip In A Jar",
     price: "₹270",
-    image: "/candles/tulip_in_a_jar.jpeg",
+    image: process.env.PUBLIC_URL + "/candles/tulip_in_a_jar.jpeg",
     colors: vibgyorPalette
   }
 ];
@@ -155,7 +155,7 @@ export default function ZephyrAromaCatalog() {
   return (
     <div className="catalog-page" style={{ backgroundImage: 'url("/backgrounds/bg.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
       <header className="bg-light text-center py-5 border-bottom">
-        <img src="/candles/zephyraroma_logo.png" alt="Zephyr Aroma Logo" style={{ height: 80 }} className="mb-3" />
+        <img src= {`${process.env.PUBLIC_URL}/candles/zephyraroma_logo.png`} alt="Zephyr Aroma Logo" style={{ height: 80 }} className="mb-3" />
         <h1 className="display-4 text-danger fw-bold">Zephyr Aroma</h1>
         <p className="lead text-muted">Handcrafted Scented Candles for Every Mood</p>
       </header>

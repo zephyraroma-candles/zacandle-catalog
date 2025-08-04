@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zcandle-catalog/static/css/main.194dc93b.css",
-    "main.js": "/zcandle-catalog/static/js/main.7bc8120d.js",
+    "main.js": "/zcandle-catalog/static/js/main.f2f19559.js",
     "static/js/453.9a960389.chunk.js": "/zcandle-catalog/static/js/453.9a960389.chunk.js",
     "index.html": "/zcandle-catalog/index.html",
     "main.194dc93b.css.map": "/zcandle-catalog/static/css/main.194dc93b.css.map",
-    "main.7bc8120d.js.map": "/zcandle-catalog/static/js/main.7bc8120d.js.map",
+    "main.f2f19559.js.map": "/zcandle-catalog/static/js/main.f2f19559.js.map",
     "453.9a960389.chunk.js.map": "/zcandle-catalog/static/js/453.9a960389.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.194dc93b.css",
-    "static/js/main.7bc8120d.js"
+    "static/js/main.f2f19559.js"
   ]
 }
